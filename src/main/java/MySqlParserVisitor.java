@@ -1,6 +1,6 @@
 // Generated from C:/Lang/workspace/antlr/mysql/src/main/antlr\MySqlParser.g4 by ANTLR 4.7
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
-import ./MySqlParser;
+
 /**
  * This interface defines a complete generic visitor for a parse tree produced
  * by {@link MySqlParser}.

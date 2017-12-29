@@ -1,6 +1,6 @@
 // Generated from C:/Lang/workspace/antlr/mysql/src/main/antlr\MySqlParser.g4 by ANTLR 4.7
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
-import ./MySqlParser;
+
 /**
  * This class provides an empty implementation of {@link MySqlParserVisitor},
  * which can be extended to create a visitor which only needs to handle a subset
