@@ -918,7 +918,7 @@ tableSources
     ;
 
 tableSource
-    : tableSourceItem joinPart*                                     #tableSourceBase
+    : tableSource joinPart*                                     #tableSourceBase
     | '(' tableSourceItem joinPart* ')'                             #tableSourceNested
     ;
 
