@@ -3,6 +3,9 @@
 -- -- Literals
 -- -- -- String literal
 SELECT 'hello world';
+select N'testing conflict on N - spec symbol and N - as identifier' as n;
+select n'abc' as tstConstrN;
+select N'abc' "bcd" 'asdfasdf' as tstConstNAndConcat;
 select 'afdf' "erwhg" "ads" 'dgs' "rter" as tstDiffQuoteConcat;
 select 'some string' COLLATE latin1_danish_ci as tstCollate;
 select _latin1'some string' COLLATE latin1_danish_ci as tstCollate;
