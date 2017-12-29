@@ -1,0 +1,1 @@
+select e.ename from emp e
